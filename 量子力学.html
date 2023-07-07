@@ -1,0 +1,114 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" >
+
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #d6c8f1;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #189bbc;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+
+
+
+<body>
+<div id="sidenavZ" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">关闭</a>
+  <a href="index.html">首页</a>
+  <a href="数学分析.html">数学分析</a>
+  <a href="线性代数.html">线性代数</a>
+  <a href="力学.html">力学</a>
+  <a href="电磁学.html">电磁学</a>
+  <a href="热学.html">热学</a>
+  <a href="光学.html">光学</a>
+  <a href="理论力学.html">理论力学</a>
+  <a href="实分析.html">实分析</a>
+  <a href="泛函分析.html">泛函分析</a>
+  <a href="点集拓扑.html">点集拓扑</a>
+  <a href="微分流形.html">微分流形</a>
+  <a href="复分析.html">复分析</a>
+  <a href="数学物理方程.html">数学物理方程</a>
+  <a href="概率论与数理统计.html">概率论与数理统计</a>
+  <a href="基础物理实验.html">基础物理实验</a>
+  <a href="抽象代数.html">抽象代数</a>
+  <a href="统计物理学.html">统计物理学</a>
+  <a href="电动力学.html">电动力学</a>
+  <a href="量子力学.html">量子力学</a>
+</div>
+
+<div id="main">
+    <title>量子力学</title>
+    <h1>量子力学</h1>
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; 势能曲线</span>
+    <br>
+    <br>
+    <a href="JavaScript:history.back(-1)">返回</a>
+    <p>
+
+
+
+
+        
+    </p>
+</div>
+
+
+<script>
+function openNav() {
+  document.getElementById("sidenavZ").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("sidenavZ").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html> 
+
+
+
+
+
+
